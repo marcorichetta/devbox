@@ -357,6 +357,70 @@
         }
       }
     },
+    "httpie@latest": {
+      "last_modified": "2024-08-31T10:12:23Z",
+      "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#httpie",
+      "source": "devbox-search",
+      "version": "3.2.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/x4r348lk023264cr6i0sa9shsdncwsjp-python3.12-httpie-3.2.2",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/8n73wsakxs5509hr2cfjbvbq87v0vz2z-python3.12-httpie-3.2.2-dist"
+            }
+          ],
+          "store_path": "/nix/store/x4r348lk023264cr6i0sa9shsdncwsjp-python3.12-httpie-3.2.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2bxnyzh6m4zp3wbwid5b66j0ghfm04f3-python3.12-httpie-3.2.2",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/d4b20klky4425x1xkch3p29ha8wnd5gf-python3.12-httpie-3.2.2-dist"
+            }
+          ],
+          "store_path": "/nix/store/2bxnyzh6m4zp3wbwid5b66j0ghfm04f3-python3.12-httpie-3.2.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/myc9b21c4q590d147dhs6qkcva3rk27p-python3.12-httpie-3.2.2",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/gx17qkay6kwjxsk21bp5pcdn5ns0mjca-python3.12-httpie-3.2.2-dist"
+            }
+          ],
+          "store_path": "/nix/store/myc9b21c4q590d147dhs6qkcva3rk27p-python3.12-httpie-3.2.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/lszxd1f8ly1bhlbm7dlgksrygdbwk5ws-python3.12-httpie-3.2.2",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/b6pr9rm0l9x86mz1cqgphid85r2zbhf2-python3.12-httpie-3.2.2-dist"
+            }
+          ],
+          "store_path": "/nix/store/lszxd1f8ly1bhlbm7dlgksrygdbwk5ws-python3.12-httpie-3.2.2"
+        }
+      }
+    },
     "jq@latest": {
       "last_modified": "2024-08-27T08:49:48Z",
       "resolved": "github:NixOS/nixpkgs/a6292e34000dc93d43bccf78338770c1c5ec8a99#jq",
@@ -896,54 +960,6 @@
             }
           ],
           "store_path": "/nix/store/zlf7dfpvppywkh8ggj8g22j5k824lfv6-starship-1.20.1"
-        }
-      }
-    },
-    "vscode@latest": {
-      "last_modified": "2024-08-16T17:05:30Z",
-      "resolved": "github:NixOS/nixpkgs/d4a7a4d0e066278bfb0d77bd2a7adde1c0ec9e3d#vscode",
-      "source": "devbox-search",
-      "version": "1.92.2",
-      "systems": {
-        "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/w1vy2d50lcgvj24vmwl99cz81kvynhaj-vscode-1.92.2",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/w1vy2d50lcgvj24vmwl99cz81kvynhaj-vscode-1.92.2"
-        },
-        "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/1glwx946zpqqndf8q4pirg7nwl1zhga1-vscode-1.92.2",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/1glwx946zpqqndf8q4pirg7nwl1zhga1-vscode-1.92.2"
-        },
-        "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/zsxk3wcy156yly0401a92dp8c5rwfdcx-vscode-1.92.2",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/zsxk3wcy156yly0401a92dp8c5rwfdcx-vscode-1.92.2"
-        },
-        "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/3xm62iszlb6q0fzpgcvyh5fc0p37amhz-vscode-1.92.2",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/3xm62iszlb6q0fzpgcvyh5fc0p37amhz-vscode-1.92.2"
         }
       }
     },

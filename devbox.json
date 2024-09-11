@@ -3,7 +3,6 @@
     "gh@latest",
     "fzf@latest",
     "ripgrep@latest",
-    "vscode@latest",
     "jq@latest",
     "yq@latest",
     "neovim@latest",
@@ -17,7 +16,8 @@
     "starship@latest",
     "lsd@latest",
     "sad@latest",
-    "lazygit@latest"
+    "lazygit@latest",
+    "httpie@latest"
   ],
   "env": {
     "DEVBOX_GLOBAL_PREFIX": "$HOME/.local/share/devbox/global/default/.devbox/nix/profile/default",
